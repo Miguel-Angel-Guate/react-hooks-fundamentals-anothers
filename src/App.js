@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import ControlInputs from './components/ControlInputs';
+import ShortCircuit from './components/ShortCircuit';
+import ShowHide from './components/ShowHide';
+import UseEffectCleanUpp from './components/UseEffectCleanUpp';
+import UseEffectFetchData from './components/UseEffectFetchData';
+import UseEffectsBasics from './components/UseEffectsBasic';
+import UseStateArray from './components/UseStateArray';
+import UseStateBasics from './components/UseStateBasics';
+import UseStateCounter from './components/UseStateCounter';
+import UseStateObjectExample from './components/UseStateObjectExample';
 
 function App() {
-  return (
+  return ( 
+
+    <>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* <UseStateBasics />
+     <UseStateArray /> 
+     <UseStateObjectExample />
+     <UseStateCounter />
+     <UseEffectsBasics />
+     <UseEffectCleanUpp />
+     <UseEffectFetchData />
+     <ShortCircuit />
+    <ShowHide />
+     */}
+     <ControlInputs />
+
     </div>
-  );
+  </>
+    )
 }
 
 export default App;
